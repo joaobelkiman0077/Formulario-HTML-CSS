@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <title> Formulário Entrega Sem Limites </title>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+    <body>
+        <header>
+            <img src="imagns/LOGO ENTREGA 2.png" alt="imagem-teste">
+                </header>    
+         
+            <div> 
+                
+                <h1 id= "titulo"><strong> Dados Cadastrais Empresarial </strong> </h1>
+                <p><strong>Olá, coloque as informações para fazer o cadastro.</strong></p>
+                <br>
+            </div>
+        
+        
+        <form>
+            <fieldset class = "Lista">
+                
+                <div class="campo">
+                    <label for = "Nome Completo"><strong> Nome da Empresa </strong> </label>
+                <input type = "text" name = "Nome da Empresa" id = "Nome da Empresa" placeholder="empresa x ou y" required>
+            </div>
+        </fieldset>
+        <div class = "campo">
+            <label for = "CNJP" ><strong> CNPJ </strong>  </label> 
+            <input data-ls-module="charCounter" maxlength="14" type = "text" name = "CNJP" id = "CNPJ" placeholder="xxx.xxx.xxx-xx" required>
+            
+        </div>
+            <div class = "campo">
+                <label for = "Email Da Empresa "> <strong > Email Empresárial </strong> </label>
+                <input type ="email" name ="Email" id = "Email" placeholder="shetor.1345@email.com" required>
+            </div>
+            <div class = "campo">
+                    <label for = "Senha "> <strong> Defina uma Senha </strong>  </label>
+                    <input type = "password" name = " Senha" id = "Senha" required>
+                </div>
+                <div class = "campo">
+                    <label for = "ConfirmeAsenha"> <strong> Confirme a Senha</strong> </label>
+                    <input type = "password" name = "ConfirmeAsenha" id = "confirm_senha" required>
+                </div>
+                <div class = "campo">
+                    <label for = "Como pretende realizar as entregas? "><strong> Como pretende realiizar as entregas? </strong></label>
+                    <select name = "Como realiizará as entregas?" required>
+                        <option value="moto"> Moto </option>
+                        <option value="bicicleta"> Bicicleta </option>
+                        <option value="carro"> Carro </option>
+                    <option value="caminhonete"> Caminhonete </option>
+                    <option value="caminhão"> Caminhão </option>
+                </label>
+            </select>
+        </div>
+        <div class = "Topico2">
+            <h2 id= "titulo2"><strong> Endereço </strong></h2>
+        </div>
+            <div class = "campo">
+                <label for = "CEP"><strong> CEP </strong> </label>
+                <input data-ls-module="charCounter" maxlength="8" type = "text" name = "CEP" id = "CEP" required>
+            </div>
+            <div class = "campo">
+                <label for = "Logradouro"><strong> Logradouro </strong></label>
+                <input type = "text" name = "Logradouro" id = "Logradouro" required>
+            </div>
+            <div class = "campo"> 
+                <label for = "Numero"><strong> Número </strong></label>
+                <input type = "number" name="Numero" id= "Numero" required>
+            </div>
+            <div class = "campo"> 
+                <label for = "Complemento"><strong> Complemento </strong></label>
+                <input type = "text" name="Complemento" id= "Complemento" required>
+            </div>
+            <div class = "campo">
+                <label for = "Bairro"><strong> Bairro </strong></label>
+                <input type = "text" name="Bairro" id= "Bairro" required>
+            </div>
+            <div class = "campo">
+                <label for = "Cidade "><strong> Cidade </strong></label>
+                <input type = "text" name="Cidade" id= "Cidade" required>
+            </div>
+            <div class = "campo">
+                <label for = "Estado"><strong> Estado </strong></label>
+                <select name = "Estado" required>
+                    <option value="Acre"> Acre </option>
+                    <option value="Alagoas"> Alagoas</option>
+                    <option value="Amapá"> Amapá </option>
+                    <option value="Amazonas"> Amazonas </option>
+                    <option value="Bahia"> Bahia </option>
+                    <option value="Ceará"> Ceará </option>
+                    <option value="Distrito Federal"> Distrito Federal </option>
+                    <option value="Espirito Santo" > Espirito Santo </option>
+                    <option value="Goias"> Goiás </option>
+                    <option value="Maranhao"> Maranhão </option>
+                    <option value="Mato Grosso"> Mato Grosso</option>
+                    <option value="Mato Grosso Do Sul"> Mato Grosso do Sul </option>
+                    <option value="Minas Gerais"> Minas Gerais </option>
+                    <option value="Pará"> Pará </option>
+                    <option value="Paraiba"> Paraiba </option>
+                    <option value="Paraná"> Paraná </option>
+                    <option value="Pernambuco"> Pernambuco </option>
+                    <option value="Piaui"> Piauí </option>
+                    <option value="Rio de Janeiro"> Rio de Janeiro </option>
+                    <option value="Rio Grande do Norte"> Rio Grande do Norte </option>
+                    <option value="Rio Grande do Sul"> Rio Grande do Sul </option>
+                    <option value="Rondonia"> Rondônia </option>
+                    <option value="Roraima"> Roraima </option>
+                    <option value="Santa Catarina"> Santa Catarina </option>
+                    <option value="São Paulo"> São Paulo </option>
+                    <option value="Sergipe"> Sergipe </option>
+                    <option value="Tocantins"> Tocantins </option>
+                </label>
+            </select>
+            </div>
+            <div class = "Termos">
+                <label for="Aceito os Termos e Condições de Uso">Aceito os Termos e Condições de Uso</label> 
+                <input type="radio" name = "Termos" id = "Termos" required>
+            </div>
+            <div class = "Botao">
+                
+              <button type="submit">Confirmar</button> 
+              
+            </div>
+     </form>
+    </body>
+</html>
