@@ -1,2 +1,3 @@
 # Formulario-HTML-CSS
-Primeira tentativa de Formulario sem JS 
+Primeira tentativa de Formulario sem JS.
+O projeto foi desenvolvido em um dia, em um evento da faculdade chamado Hackatom, no qual em 30h, eu e meu grupo teríamos que apresentar um projeto para os organizadores. Nessas 30 horas eu me dediquei ao código, e mesmo sem ter conhecimento prévio de HTML e CSS, desenvolvi um fomulário dentro dos meus limites. Sabendo da limitação dele e de todos os problemas do código, a ideia de postar ele aqui, é que vou pegar ele e melhorar conforme o tempo, e depois ter varios arquivos de formulário mostrando a evolução do código e também a minha evolução.
